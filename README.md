@@ -23,13 +23,13 @@ Auto-approve if amount < 10,000
 Set urgency = High if delivery days < 3
 
 📂 Folder Structure
-assignment1-business-rules/
+Assignment 1/
  ├── rules.json
  ├── server.js
  └── package.json
 
 ▶️ Setup
-cd assignment1-business-rules
+cd Assignment 1
 npm install
 node server.js
 
@@ -56,12 +56,12 @@ POST http://localhost:3000/processPR
 - **Generate a vendor spend report by joining Purchase Orders (POs) and Invoices.**
 
 📂 Folder Structure
-assignment2-spend-analysis/
+Assignment 2/
  ├── server.js
  └── package.json
 
 ▶️ Setup
-cd assignment2-spend-analysis
+cd Assignment 2
 npm install
 node server.js
 
@@ -89,12 +89,12 @@ db.invoices.insertMany([
 - **Summarize PR descriptions into short text using HuggingFace Transformers.**
 
 📂 Folder Structure
-assignment3-summarization-service/
+Assignment 3/
  ├── main.py
  ├── requirements.txt
 
 ▶️ Setup
-cd assignment3-summarization-service
+cd Assignment 3
 pip install -r requirements.txt
 uvicorn main:app --reload --port 8000
 
@@ -119,13 +119,13 @@ POST http://localhost:8000/summarize
 Filter PRs from MongoDB
 
 📂 Folder Structure
-assignment4-role-based-filtering/
+Assignment 4/
  ├── permissions.json
  ├── server.js
  └── package.json
 
 ▶️ Setup
-cd assignment4-role-based-filtering
+cd Assignment 4
 npm install
 node server.js
 
@@ -148,13 +148,13 @@ db.prs.insertMany([
 **Simulate an AI Agent flow (Document Extraction → Validation → Creation) based on a config file.**
 
 📂 Folder Structure
-assignment5-agent-orchestration/
+Assignment 5/
  ├── main.py
  ├── flow.json
  ├── requirements.txt
 
 ▶️ Setup
-cd assignment5-agent-orchestration
+cd Assignment 5
 pip install -r requirements.txt
 uvicorn main:app --reload --port 8001
 
@@ -171,7 +171,7 @@ POST http://localhost:8001/executeAgentFlow
   "saved": true
 }
 
-✅ Tech Stack Used
+## ✅ Tech Stack Used
 
 Node.js + Express → REST APIs
 
@@ -187,14 +187,14 @@ HuggingFace Transformers → Text summarization
 
 Clone the repo:
 
-git clone https://github.com/your-username/procurement-assignments.git
+git clone https://github.com/Nnagarjuna55/All-Assignments.git
 cd ship the folder
 
 
-Navigate to each assignment and follow its setup instructions.
+## Navigate to each assignment and follow its setup instructions.
 
 Run APIs using:
 
-node server.js (for Node.js assignments)
+## node server.js (for Node.js assignments)
 
-uvicorn main:app --reload (for Python assignments)
+## uvicorn main:app --reload (for Python assignments)
