@@ -1,0 +1,6 @@
+{
+  "approvalRules": [
+    { "condition": "totalAmount < 10000", "action": "autoApprove", "setStatus": "Approved" },
+    { "condition": "deliveryDays < 3", "action": "setUrgency", "urgency": "High" }
+  ]
+}
